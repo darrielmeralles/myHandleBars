@@ -1,0 +1,62 @@
+*{
+    margin: 0; 
+    padding: 0;
+    
+}
+.page-wrap{
+    text-align: center;
+    padding: 100px 0px;
+}
+
+h1{
+    font-size: 45px;
+    color: blueviolet;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 30px;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.pets-container{
+    max-width: 1149px;
+    margin: auto;
+    padding: 100px 40px;
+}
+
+.pet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.pet:nth-child(odd){
+    background-color: grey;
+    color: white;
+}
+
+.pet:nth-child(odd) h2{
+    color: white;
+}
+
+.favorite-foods li{
+    list-style-type: none;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+}
+
+.info-column{
+    padding: 40px;
+    text-align: left;
+}
+
